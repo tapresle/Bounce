@@ -1,0 +1,24 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "tapresle@ncsu.edu",
+    "longName": "BeachWatch",
+    "resources": {
+        "media": [
+            {
+                "file": "fonts/helveticaneue-webfont.ttf",
+                "name": "FONT_HV_32",
+                "type": "font"
+            }
+        ]
+    },
+    "shortName": "BeachWatch",
+    "uuid": "11be983b-8e67-422f-8c6b-999d74ca7cb0",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
