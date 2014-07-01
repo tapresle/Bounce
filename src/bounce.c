@@ -20,7 +20,7 @@ typedef struct Disc {
 
 static Disc discs[NUM_DISCS];
 
-static double next_radius = 8;
+static double next_radius = 7;
 
 static Window *window;
 
