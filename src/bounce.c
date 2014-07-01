@@ -80,7 +80,7 @@ static void disc_init(Disc *disc) {
   disc->vel.y = 0;
   disc->radius = next_radius;
   disc->mass = disc_calc_mass(disc);
-  next_radius += 1;
+  next_radius += 1.5;
 }
 
 static void disc_apply_force(Disc *disc, Vec2d force) {

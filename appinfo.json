@@ -4,7 +4,7 @@
         ""
     ],
     "companyName": "tapresle@ncsu.edu",
-    "longName": "BeachWatch",
+    "longName": "BounceFace",
     "resources": {
         "media": [
             {
@@ -14,7 +14,7 @@
             }
         ]
     },
-    "shortName": "BeachWatch",
+    "shortName": "BounceFace",
     "uuid": "11be983b-8e67-422f-8c6b-999d74ca7cb0",
     "versionCode": 1,
     "versionLabel": "1.0",
