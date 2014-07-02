@@ -149,17 +149,17 @@ static void window_load(Window *window) {
     disc_init(&discs[i]);
   }
   
-  text_time_layer = text_layer_create(GRect(2, 2, 144-2, 168-120));
+  text_time_layer = text_layer_create(GRect(2, 2, 144, 168));
   text_layer_set_text_color(text_time_layer, GColorWhite);
   text_layer_set_background_color(text_time_layer, GColorClear);
-  text_layer_set_font(text_time_layer, fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_HV_32)));
+  text_layer_set_font(text_time_layer, fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_HV_28)));
   layer_add_child(window_layer, text_layer_get_layer(text_time_layer));
   layer_add_child(window_layer, text_layer_get_layer(text_time_layer));
   
-  bat_layer = text_layer_create(GRect(75, 2, /* width */ 149, 168 /* height */));
+  bat_layer = text_layer_create(GRect(80, 2, /* width */ 149, 168 /* height */));
   text_layer_set_text_color(bat_layer, GColorWhite);
   text_layer_set_background_color(bat_layer, GColorClear);
-  text_layer_set_font(bat_layer, fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_HV_32)));
+  text_layer_set_font(bat_layer, fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_HV_28)));
   text_layer_set_text_alignment(bat_layer, GTextAlignmentLeft);
   text_layer_set_text(bat_layer, "");
   layer_add_child(window_layer, text_layer_get_layer(bat_layer));

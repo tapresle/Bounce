@@ -9,6 +9,11 @@
         "media": [
             {
                 "file": "fonts/helveticaneue-webfont.ttf",
+                "name": "FONT_HV_28",
+                "type": "font"
+            },
+            {
+                "file": "fonts/helveticaneue-webfont.ttf",
                 "name": "FONT_HV_32",
                 "type": "font"
             }
@@ -17,7 +22,7 @@
     "shortName": "BounceFace",
     "uuid": "11be983b-8e67-422f-8c6b-999d74ca7cb0",
     "versionCode": 1,
-    "versionLabel": "1.0",
+    "versionLabel": "1.0.1",
     "watchapp": {
         "watchface": true
     }
